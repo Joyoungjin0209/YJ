@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>개인 웹 페이지</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4682b4;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #4682b4;
+            font-weight: bold;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #4682b4;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>개인 웹 페이지</h1>
+    </header>
+    <nav>
+        <a href="#about">자기소개</a>
+        <a href="#location">오시는 길</a>
+        <a href="#documents">법률문서 양식</a>
+        <a href="#contact">문의사항</a>
+    </nav>
+    <section id="about">
+        <h2>자기소개</h2>
+        <p>여기에 자기소개 내용을 입력하세요.</p>
+    </section>
+    <section id="location">
+        <h2>오시는 길</h2>
+        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAASABIAAD/4QCMRXhpZgAATU0AKgAAAAgABQESAAMAAAABAAEAAAEaAAUAAAABAAAASgEbAAUAAAABAAAAUgEoAAMAAAABAAIAAIdpAAQAAAABAAAAWgAAAAAAAABIAAAAAQAAAEgAAAABAAOgAQADAAAAAQABAACgAgAEAAAAAQAABgCgAwAEAAAAAQAABIAAAAAA/+0AOFBob3Rvc2hvcCAzLjAAOEJJTQQEAAAAAAAAOEJJTQQlAAAAAAAQ1B2M2Y8AsgTpgAmY7PhCfv/AABEIBIAGAAMBIgACEQEDEQH/xAAfAAABBQEBAQEBAQAAAAAAAAAAAQIDBAUGBwgJCgv/xAC1EAACAQMDAgQDBQUEBAAAAX0BAgMABBEFEiExQQYTUWEHInEUMoGRoQgjQrHBFVLR8CQzYnKCCQoWFxgZGiUmJygpKjQ1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpz" alt="전주지방법원">
+        <p>여기에 오시는 길에 대한 설명을 입력하세요.</p>
+    </section>
+    <section id="documents">
+        <h2>법률문서 양식</h2>
+        <p>여기에 법률문서 양식에 대한 내용을 입력하세요.</p>
+    </section>
+    <section id="contact">
+        <h2>문의사항</h2>
+        <p>여기에 문의사항에 대한 내용을 입력하세요.</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 개인 웹 페이지. 모든 권리 보유.</p>
+    </footer>
+</body>
+</html>
